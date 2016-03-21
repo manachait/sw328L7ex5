@@ -39,8 +39,7 @@ function resultSearch(results, status){
 			var marker = new google.maps.Marker({
 				map: map, 
 				position: results[i].geometry.location
-			});
-			marker.setMap(map);
+			});			
 		}
 	}
 	else{alert("Geocode error: " + status)}
