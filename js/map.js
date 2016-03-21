@@ -29,7 +29,7 @@ function initMap() {
 }
 function search(){
 	var address = document.getElementById("address").value;
-	geocoder.geocode({"address": address}, resultSearch);
+	geocoder.geocode({'address': address}, resultSearch);
 }
 function resultSearch(results, status){
 	if(status == google.maps.GeocoderStatus.OK){
